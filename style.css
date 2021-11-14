@@ -1,0 +1,35 @@
+#main {
+    text-align: center;
+    background-color: rgb(215, 236, 250);
+
+}
+
+#title {
+    font: sans-serif;
+    color: rgba(0, 0, 0, 0.877);
+    padding-top: 5px;
+}
+
+#img-div {
+    width: 100%;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border:3px solid slateblue ;
+    border-radius:5px;
+}
+
+
+
+#tribute-info ul {
+    list-style: none;
+    padding-top: 5px;
+}
+
+#cita {
+    padding-top: 5px;
+}
