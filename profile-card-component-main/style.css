@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700&family=Spartan:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+:root {
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+}
+
+body {
+    background-color:var(--Darkcyan);
+    font-family: 'Kumbh Sans', sans-serif;
+    
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 51vw bottom 20vh, 
+    left 45vw top 50vh;
+}
+
+.card-continer {
+    position: relative;
+    width: 330px;
+    height: 380px;
+   background-color: white;
+    border-radius: 12px;
+    margin: 80px auto 80px;
+    overflow: hidden;
+    font-size: 18px;
+
+}
+
+.photo-card img {
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 80px;
+    left: 35%;
+
+}
+
+.description-card {
+    color: var(--Verydarkdesaturatedblue);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.name {
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.age {
+    color: var(--Darkgray);
+    font-weight: 400;
+    margin-left: 2px;
+}
+
+.description-card p {
+    color: var(--Darkgray);
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer-card {
+    margin-top: 20px;
+    border-top: 1px solid var(--Darkgray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+
+}
+
+.numbers {
+    font-weight: 700;
+    color: var(--Verydarkdesaturatedblue);
+    text-align: center;
+  
+}
+
+.footer-card small{
+    margin-bottom: 10px;
+    color: var(--Darkgray);
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen  and (min-width:1440px){
+    .card-continer{
+        width: 350px;
+    }
+    
+}
